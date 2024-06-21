@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="Project" content="Password Generator">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generate a <br> <div class="container">random password.</div></h1>
+    <p>Never use an incorrect password again.</p>
+    <button onclick="generatePassword()">Generate Password</button>
+    <hr>
+    <button id="password1_el" class="container1"></button>
+    <button id="password2_el" class="container1"></button>
+    <p class="extra">Do you want to <strong>exclude</strong> any special characters ?</p>
+    <p id="para-el"></p>
+    <button id="yes" class="container2" onclick="yes()">Yes</button>
+    <button id="no" class="container2" onclick="no()">No</button>
+    <script src="index.js"></script>
+</body>
+</html>
